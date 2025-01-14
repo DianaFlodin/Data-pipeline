@@ -1,0 +1,11 @@
+# Ignorera Python-kompilerade filer
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorera miljövariabler
+.env
+
+# Ignorera VSCode-filer
+.vscode/
