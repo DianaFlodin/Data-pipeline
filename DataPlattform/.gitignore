@@ -6,7 +6,7 @@ __pycache__/
 /Python/
 
 # Ignorera miljövariabler
-.env
+#.env
 
 # Ignorera VSCode-filer
 .vscode/
