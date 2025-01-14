@@ -3,7 +3,7 @@ import pyodbc
 def connect_to_db():
     try:
         connection = pyodbc.connect(
-            "Driver={dianaflodin.database.windows.net};"
+            "Driver={SQL Server};"
             "Server=dianaflodin.database.windows.net;"
             "Database=Dianas-DB;"
             "Trusted_Connection=yes;"
