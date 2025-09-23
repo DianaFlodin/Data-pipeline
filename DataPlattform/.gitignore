@@ -3,10 +3,21 @@
 *.pyo
 *.pyd
 __pycache__/
-/Python/
+Python/
 
 # Ignorera miljövariabler
-#.env
+.env
+*.env
 
 # Ignorera VSCode-filer
 .vscode/
+
+# Ignorera test-/datafiler
+*.sqlite3
+*.db
+*.log
+*.json
+
+# Ignorera Mac/Windows systemfiler
+.DS_Store
+Thumbs.db
